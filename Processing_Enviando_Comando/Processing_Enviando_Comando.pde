@@ -18,11 +18,12 @@ void draw(){
   desenhaBotao();
 
 }
+}
 
 void desenhaBotao(){
   background(255); // Define o fundo branco
 
-  fill(#255);  // Preenche com preto
+  fill(#000000);  // Preenche com preto
   rect(30, 150, 60, 100);     // Cria botão para desligar o led
   fill(#000000);  // Preenche com preto
   rect(300, 150, 60, 100);    // Cria botão para ligar o led
